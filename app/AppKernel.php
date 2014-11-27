@@ -21,6 +21,7 @@ class AppKernel extends Kernel
             new Nelmio\ApiDocBundle\NelmioApiDocBundle(),
             new FOS\JsRoutingBundle\FOSJsRoutingBundle(),
             new Sp\BowerBundle\SpBowerBundle(),
+            new Example\TestBundle\ExampleTestBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {

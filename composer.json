@@ -24,7 +24,8 @@
         "jms/serializer-bundle": "0.13.*",
         "nelmio/api-doc-bundle": "2.*",
         "friendsofsymfony/jsrouting-bundle": "~1.5",
-        "sp/bower-bundle": "dev-master"
+        "sp/bower-bundle": "dev-master",
+        "ext-intl": "*"
     },
 
     "require-dev": {
